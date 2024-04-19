@@ -20,7 +20,29 @@ Abra o arquivo appsettings.json, que se encontra na raiz, e na variável Connect
 ```
 Exemplo de Connection String utlizando MySQL: "Server=;Port=3306;Database=;User Id=;Password="
 ```
+## Instalando as dependências
 
+Abra o terminal NuGet acessando Ferramentas > Gerenciador de Pacotes do NuGet > Console do Gerenciador de Pacote
+
+```
+dotnet add package Microsoft.EntityFrameworkCore
+```
+
+```
+dotnet add package Microsoft.EntityFrameworkCore.Design
+```
+
+```
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+```
+
+```
+donet add package Pomelo.EntityFrameworkCore.MySql
+```
+
+```
+dotnet add package Swashbuckle.AspNetCore
+```
 
 ## Rotas
 
