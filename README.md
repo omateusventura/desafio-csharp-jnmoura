@@ -21,3 +21,22 @@ Abra o arquivo appsettings.json, que se encontra na raiz, e na variável Connect
 Exemplo de Connection String utlizando MySQL: "Server=;Port=3306;Database=;User Id=;Password="
 ```
 
+
+## Rotas
+
+```
+GET /people
+```
+
+```
+GET /people/{id}
+```
+
+```
+POST /people
+```
+
+```
+PUT /people/{id}
+
+DELETE /people/{id}
