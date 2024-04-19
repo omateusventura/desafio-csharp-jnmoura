@@ -6,11 +6,18 @@ a configuração do seu front-end que se encontra no link [Front-end desafio JN 
 ## Iniciando o projeto
 
 ```
-git clone https://github.com/omateusventura/desafio-csharp-jnmoura.git
+Com o Visual Studio aberto encontre no menu superior a opção Git e selecione o item Clonar Repositório
 ```
 
 ```
-no arquivo appsettings.json configure o Connection String de uma conexão MySQL
+Informe o repositório https://github.com/omateusventura/desafio-csharp-jnmoura.git e clique em clonar
+```
+
+```
+Abra o arquivo appsettings.json, que se encontra na raiz, e na variável Connection String informe uma Connection String de uma conexão MySQL
+```
+
+```
 Exemplo de Connection String utlizando MySQL: "Server=;Port=3306;Database=;User Id=;Password="
 ```
 
