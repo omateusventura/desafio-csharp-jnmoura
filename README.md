@@ -38,5 +38,8 @@ POST /people
 
 ```
 PUT /people/{id}
+```
 
+```
 DELETE /people/{id}
+```
