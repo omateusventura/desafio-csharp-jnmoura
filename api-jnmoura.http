@@ -1,0 +1,6 @@
+@api_jnmoura_HostAddress = http://localhost:5252
+
+GET {{api_jnmoura_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
