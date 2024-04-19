@@ -3,7 +3,7 @@
 Este projeto é um desafio técnico proposto pela empresa JN Moura. Para que este projeto funcione plenamente é necessário
 a configuração do seu front-end que se encontra no link [Front-end desafio JN Moura](https://github.com/omateusventura/desafio-angularjs-jnmoura/)
 
-## Iniciando o projeto
+## Clonando o projeto
 
 ```
 Com o Visual Studio aberto encontre no menu superior a opção Git e selecione o item Clonar Repositório
@@ -20,6 +20,7 @@ Abra o arquivo appsettings.json, que se encontra na raiz, e na variável Connect
 ```
 Exemplo de Connection String utlizando MySQL: "Server=;Port=3306;Database=;User Id=;Password="
 ```
+
 ## Instalando as dependências
 
 Abra o terminal NuGet acessando Ferramentas > Gerenciador de Pacotes do NuGet > Console do Gerenciador de Pacote
@@ -44,24 +45,20 @@ donet add package Pomelo.EntityFrameworkCore.MySql
 dotnet add package Swashbuckle.AspNetCore
 ```
 
-## Rotas
-
 ```
-GET /people
+dotnet restore
 ```
 
 ```
-GET /people/{id}
+dotnet build --no-restore
+```
+
+## Iniciando o projeto
+
+```
+dotnet run
 ```
 
 ```
-POST /people
-```
-
-```
-PUT /people/{id}
-```
-
-```
-DELETE /people/{id}
+O projeto irá abrir no endereço http://localhost:5252/swagger/index.html
 ```
