@@ -11,5 +11,6 @@ git clone https://github.com/omateusventura/desafio-csharp-jnmoura.git
 
 ```
 no arquivo appsettings.json configure o Connection String de uma conexão MySQL
+Exemplo de Connection String utlizando MySQL: "Server=;Port=3306;Database=;User Id=;Password="
 ```
 
