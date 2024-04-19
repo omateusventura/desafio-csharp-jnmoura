@@ -10,6 +10,6 @@ git clone https://github.com/omateusventura/desafio-csharp-jnmoura.git
 ```
 
 ```
-No appsettings.json configure o Connection String 
+no arquivo appsettings.json configure o Connection String de uma conexão MySQL
 ```
 
