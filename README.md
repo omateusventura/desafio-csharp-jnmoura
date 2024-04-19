@@ -38,11 +38,15 @@ dotnet add package Microsoft.EntityFrameworkCore.Tools
 ```
 
 ```
-donet add package Pomelo.EntityFrameworkCore.MySql
+dotnet add package Pomelo.EntityFrameworkCore.MySql
 ```
 
 ```
 dotnet add package Swashbuckle.AspNetCore
+```
+
+```
+dotnet tool install --global dotnet-ef
 ```
 
 ```
@@ -52,6 +56,13 @@ dotnet restore
 ```
 dotnet build --no-restore
 ```
+
+## Rodando as migrations
+
+```
+dotnet ef database update
+```
+
 
 ## Iniciando o projeto
 
