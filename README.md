@@ -9,3 +9,7 @@ a configuração do seu front-end que se encontra no link [Front-end desafio JN 
 git clone https://github.com/omateusventura/desafio-csharp-jnmoura.git
 ```
 
+```
+No appsettings.json configure o Connection String 
+```
+
